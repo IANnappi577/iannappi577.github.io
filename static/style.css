@@ -1,1 +1,151 @@
 /* styles will go here */
+
+:root {
+    --main_bg: rgb(102, 107, 117);
+    --card_bg: rgb(152, 157, 167);
+    --littlecard_bg: rgb(172, 177, 187);
+    --font: rgb(52, 57, 67);
+}
+
+* {
+    background-color: var(--main_bg);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+}
+
+/* parallax scrolling */
+.parallax {
+    background-image: url(salt_flats.jpg);
+    min-height: 100vh;
+    width:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    background-color:transparent;
+}
+.caption span.slogan {
+    background-color: rgba(152, 157, 167, 0.2);
+    color: black;
+    border-radius: 10px;
+    padding: 18px;
+    padding-bottom: 35px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 10px;
+}
+
+/* links and images */
+.caption span.links {
+    background-color: transparent;
+    letter-spacing: 2px;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.caption span.links a {
+    background-color:transparent;
+    font-size:11pt;
+    text-decoration:none;
+    color:black;
+}
+.caption span.links a:hover {
+    cursor:pointer;
+    text-decoration:none;
+    color: rgba(0,0,0,0.5)
+}
+.img_container {
+    background-size:cover;
+    background-repeat:no-repeat;
+    overflow:hidden;
+    width: 20px;
+    height: 20px;
+    display:inline-block;
+}
+.img_container:hover {
+    background-image:url(50-transparent-github.png);
+}
+
+/* main body content */
+.main {
+    padding: 30px 30px;
+}
+.card {
+    background-color: var(--card_bg);
+    border-radius:10px;
+    padding: 50px 120px;
+    text-align:center;
+    line-height:1.5;
+}
+.card h1 {
+    background-color: var(--card_bg);
+    font-size:24pt;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing:5px;
+}
+
+.my_skills_container {
+    display: flex;
+    width:100%;
+    border-radius:10px;
+}
+.my_skills_gif {
+    display:flex;
+    position:relative;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 650px;
+    background-image: url(java_coding.gif);
+    background-size:cover;
+    overflow:hidden;
+    padding:50px 50px;
+    border-radius:0px 10px 10px 0px;
+}
+.my_skills {
+    width: 50%;
+    display: flex;
+    background-color: var(--littlecard_bg);
+    box-shadow:0px 4px 16px rgba(0, 0, 0, 0.2);
+    padding:50px 50px;
+    border-radius:10px 0px 0px 10px;
+}
+.my_skills:hover {
+    cursor:pointer;
+    box-shadow:0px 16px 24px rgba(0, 0, 0, 0.2);
+}
+.my_skills_content {
+    background-color: var(--littlecard_bg);
+    display:inline;
+}
+.my_skills_content h2 {
+    background-color: var(--littlecard_bg);
+    font-family: 'Courier New', Courier, monospace;
+    font-size:18pt;
+    letter-spacing:2px;
+    text-align:center;
+}
+.my_skills_content p {
+    background-color: var(--littlecard_bg);
+    text-align:left;
+}
+.my_skills_content p span {
+    font-weight:bold;
+    background-color: var(--littlecard_bg);
+    text-align:left;
+}
+.my_skills_content ul {
+    background-color: var(--littlecard_bg);
+    text-align:left;
+}
+.my_skills_content li {
+    background-color: var(--littlecard_bg);
+    text-align:left;
+}
