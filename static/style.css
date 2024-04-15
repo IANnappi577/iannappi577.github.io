@@ -95,6 +95,11 @@
     display: flex;
     width:100%;
     border-radius:10px;
+    box-shadow:4px 4px 16px rgba(0, 0, 0, 0.2);
+}
+.my_skills_container:hover {
+    cursor:pointer;
+    box-shadow:16px 16px 24px rgba(0, 0, 0, 0.2);
 }
 .my_skills_gif {
     display:flex;
@@ -102,8 +107,8 @@
     top: 0;
     right: 0;
     width: 50%;
-    height: 650px;
-    background-image: url(java_coding.gif);
+    height: 700px;
+    background-image: url(coding_website.gif);
     background-size:cover;
     overflow:hidden;
     padding:50px 50px;
@@ -113,13 +118,8 @@
     width: 50%;
     display: flex;
     background-color: var(--littlecard_bg);
-    box-shadow:0px 4px 16px rgba(0, 0, 0, 0.2);
     padding:50px 50px;
     border-radius:10px 0px 0px 10px;
-}
-.my_skills:hover {
-    cursor:pointer;
-    box-shadow:0px 16px 24px rgba(0, 0, 0, 0.2);
 }
 .my_skills_content {
     background-color: var(--littlecard_bg);
