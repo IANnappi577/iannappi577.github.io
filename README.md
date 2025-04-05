@@ -1,5 +1,5 @@
 # Personal Professional-Development Website
 
-Personally-crafted website showcasing my professional skills utilizing complex CSS and HTML.
+Personally-crafted website showcasing my CS skills and projects
 
-<a href="https://iannappi577.github.io/"> >> Click here to visit ! << </a>
+<a href="https://iannappi577.github.io/"> >> Click here to visit << </a>
