@@ -24,11 +24,13 @@
         </div>
 
         <div class="main">
-            <div class="card" style="height:1000px;">
+            <div class="card" style="height:auto;">
                 <h1>About Me</h1>
-                Hi, I'm Ian, an aspiring software engineer in the DMV. Currently, I'm a sophomore at The George Washington University studying toward
-                my Bachelor's of Science in Computer Science with a minor in Geospacial Information Systems, and will be applying for graduate school next year to get my
-                Masters in Cybersecurity. I am constantly looking for opportunities to gain experience in computer science and academia.<br><br>
+                Hi, I'm Ian, an aspiring software engineer in the DMV. I'm currently a junior at The George Washington University 
+                studying toward my Bachelor's of Science in Computer Science with a minor in Geographic Information Systems (GIS), and 
+                will be applying for graduate school next year to get my Masters in Cybersecurity. I am a recipient of the 
+                <a href="https://sfs.opm.gov">CyberCorps Scholarship for Service (SFS)</a>, and am constantly looking for opportunities
+                to gain experience in computer science and cybersecurity.<br><br>
                 
                 <br>
                 <div class="my_skills_container">
@@ -37,28 +39,28 @@
                             <h2>Skills</h2>
                             <p style="margin-bottom: 0px; font-weight:bold;">Experience Areas:</p>
                             <ul style="margin-top:0px;">
-                                <li>Test Driven Development (TDD)</li>
+                                <li>Full Stack & Test Driven Development (TDD)</li>
+                                <li>Cloud Computing with Amazon AWS</li>
+                                <li>Computer Graphics with WebGL</li>
                                 <li>Database Design/Management</li>
-                                <li>Full Stack Development</li>
+                                <li>Linux-based Operating Systems</li>
+                                <li>Cisco-Proprietary Networking</li>
                                 <li>Algorithms and Data Structures</li>
-                                <li>Systems Programming</li>
                                 <li>Computer Architecture</li>
-                                <li>Agile and Waterfall Development</li>
                             </ul>
                             <p style="margin-bottom: 0px; font-weight:bold;">Programming Languages:</p>
                             <ul style="margin-top:0px;">
                                 <li>Java</li>
                                 <li>Python (flask, sqlite3, matplotlib, pandas, numpy, selenium)</li>
                                 <li>C</li>
-                                <li>HTML / CSS / Javascript</li>
-                                <li>Git</li>
-                                <li>SQLite, MySQL with AWS deployment</li>
+                                <li>HTML / CSS / Javascript / Typescript</li>
+                                <li>SQLite, MySQL with AWS RDS deployment</li>
                                 <li>The RISC-V ISA</li>
-                                <li>Linux bash</li>
-                                <li>Limited Experience: Rust, ReactJS, C++</li>
+                                <li>Linux / Bash</li>
+                                <li>Limited Experience: Perl, Rust, C++</li>
                             </ul>
-                            <p><span>Operating Systems:</span> Linux</p>
-                            <p><span>Frameworks:</span> Visual Studio Code, Eclipse, Vim, vi, Valgrind, Markdown, Wireshark</p>
+                            <p><span>Operating Systems:</span> Linux, UNIX</p>
+                            <p><span>Tools/Frameworks: </span>VSCode, Eclipse, Git, vi, Valgrind, xv6, Markdown, Wireshark, AWS CLI, ThreeJS, WebGL</p>
                         </div>
                     </div>
                     <div class="my_skills_gif"></div>
@@ -67,10 +69,40 @@
 
             <br><br>
 
-            <div class="card" style="height:500px;">
+            <div class="card" style="height:auto;">
                 <h1>My Projects</h1>
+                <div class="my_skills_container">
+                    <div class="my_skills">
+                        <div class="my_skills_content">
+                            <h2 class="caption" style="text-align:left; position:relative; top:auto; width:auto; display:flex;">
+                                Trash Planet
+                                <!-- link to github project -->
+                                <span class="links">
+                                    <a href="https://github.com/scaboodles/trashPlanet" target="_blank" id="link_trashp">
+                                        <div id="img_trashp" class="img_container" style="background-color:transparent; background-image: url('static/github.png');"></div>
+                                    </a>
+                                    <!-- make the github logo transparent on mouseover -->
+                                    <script src="js/event_listeners.js"></script>
+                                </span>
+                            </h2>
+                            <p style="margin-bottom: 0px;">Built for a hackathon in 24 hrs with 3 other teammates.</p>
+                            <p style="margin-bottom: 0px;"><span style="font-weight:bold;">Skills: </span>ThreeJS graphics, collision physics programming, game design</p>
+                            <p style="margin-bottom: 0px;"><span style="font-weight:bold;">Languages: </span>Typescript</p>
+                            <p style="margin-bottom: 0px; font-weight:bold;">Features:</p>
+                            <ul style="margin-top:0px;">
+                                <li>The goal is to build your „Trash Planet” by collecting space trash until you reach critical mass.</li>
+                                <li>The user can pan, zoom, and pull objects toward their planet with the mouse</li>
+                                <li>Objects spawn randomly and get progressively larger, building your planet faster.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="my_projects_gif"></div>
+                </div>
             </div>
+
+            <!-- credits -->
+            <div class="credits">ⓒ IanN 2025 | Mit ❤️ erstellt</div>
         </div>
-        <div class="parallax" style="min-height:200px;"></div>
+        <div class="parallax" style="min-height:30px;"></div>
     </body>
 </html>
