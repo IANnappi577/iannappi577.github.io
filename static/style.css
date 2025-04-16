@@ -182,3 +182,17 @@
     padding:50px 50px;
     border-radius:0px 10px 10px 0px;
 }
+
+.my_nontechskills_png {
+    display:flex;
+    position:relative;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 400px;
+    background-image: url(DC_map1.png);
+    background-size:cover;
+    overflow:hidden;
+    padding:50px 50px;
+    border-radius:0px 10px 10px 0px;
+}
